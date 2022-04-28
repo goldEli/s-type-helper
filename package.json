@@ -1,0 +1,22 @@
+{
+  "name": "synnex-type-helper",
+  "version": "0.0.3",
+  "description": "Automatic completion of TS type",
+  "preferGlobal": true,
+  "main": "bin/index.js",
+  "bin": {
+    "sth": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/parser": "^7.17.8",
+    "@babel/traverse": "^7.17.3",
+    "glob": "^7.2.0"
+  }
+}
